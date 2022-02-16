@@ -1,5 +1,5 @@
 {
-  "name": "restaurant",
+  "name": "PizzaRes",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@paypal/react-paypal-js": "^7.6.0",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.26.0",
+    "cookie": "^0.4.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-paypal-js": "0.0.1-security",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
   },
   "devDependencies": {
     "eslint": "8.4.1",
